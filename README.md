@@ -9,7 +9,7 @@ To analyze the relationship between input and received signal of a 660nm fiber o
 
 
 ## EQUIPMENTS REQUIRED
-- Fiber optic trainer kit ST 2502  
+- Fiber optic trainer kit ST 2502   
 - Power supply  
 - Patch cords  
 - CRO (Cathode Ray Oscilloscope)  
@@ -44,7 +44,8 @@ Fiber optic links can be used for transmission of digital as well as analog sign
 
 ## BLOCK DIAGRAM
 
-*(Insert block diagram here)*
+![WhatsApp Image 2025-11-25 at 11 09 03_fd628f3a](https://github.com/user-attachments/assets/bab022c9-444d-40ea-b9d2-4c20115a2d79)
+
 
 ---
 
@@ -60,16 +61,26 @@ Fiber optic links can be used for transmission of digital as well as analog sign
 
 | Frequency (Hz) | Output Signal Amplitude (Vo) | Gain = Vo/Vi | Gain in dB |
 |----------------|------------------------------|--------------|------------|
-|                |                              |              |            |
+|  50 Hz         |    1380                      |   0.644      |   1.938    |
+|  3.33 Hz       |    1500                      |   0.700      |   1.549    |
+|  9.86 Hz       |    1480                      |   0.691      |   1.605    |
+|  10.2 KHz      |    1480                      |   0.691      |   1.605    |
+|  13 KHz        |    1460                      |   0.68       |   1.674    |
+|  16 KHz        |    1440                      |   0.672      |   1.726    |
+|  33 MHz        |    1400                      |   0.654      |   1.844    |
+|  3 MHz         |    1360                      |   0.028      |   1.526    |
 
 ---
 
 ## MODEL GRAPH
 
-*(Insert model graph here)*
+![WhatsApp Image 2025-11-25 at 11 09 14_5c33330a](https://github.com/user-attachments/assets/a2c75a52-c4b9-4006-ae60-a8e7f656d40e)
+
+## OUTPUT FRAPH
+![WhatsApp Image 2025-11-25 at 11 19 28_15b11d80](https://github.com/user-attachments/assets/9acc533d-cc3e-42f9-9f47-59f3bd913e74)
 
 ---
 
 ## RESULT
+The relationship between input and received signal of a 660nm fiber optic cable using analog and digital link are analyzed completely.
 
-*(Summarize observations and conclusions here)*
